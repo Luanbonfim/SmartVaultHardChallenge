@@ -1,0 +1,51 @@
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]eploy/
+[Dd]ebugger/
+[Dd]otCover/
+
+# Ignore user-specific files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore package directories
+bin/
+obj/
+
+# Ignore NuGet package files
+*.nupkg
+# NuGet directories
+.nuget/
+# Dependency directories
+packages/
+
+# Ignore compiled assemblies
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+
+# Ignore publish directories
+publish/
+
+# Ignore configuration files
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Test.json
+secrets.json
+
+# Ignore SQLite database files
+*.db
+
+# Ignore ASP.NET Core temporary files
+.tmp/
+wwwroot/
