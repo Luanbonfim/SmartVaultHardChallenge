@@ -66,7 +66,7 @@ namespace SmartVault.DataGeneration.Services
 
                 var documentPath = new FileInfo("TestDoc.txt").FullName;
 
-                for (int d = 0; d < 9; d++, documentNumber++)
+                for (int d = 0; d < 1000; d++, documentNumber++)
                 {
                     connection.Execute($"INSERT INTO Document (Id, Name, FilePath, Length, AccountId, CreatedOnDate) VALUES('{documentNumber}','Document{i}-{d}.txt','{documentPath}','{new FileInfo(documentPath).Length}','{i}', '{formatedCreatedOnDate}')");
                 }
